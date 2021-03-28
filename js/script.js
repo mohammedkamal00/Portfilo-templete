@@ -1,31 +1,15 @@
-$('.slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    dots: true,
-    infinite: true,
-    cssEase: 'linear',
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
-            }
-        }
-    ]
-
+var swiper = new Swiper(".swiper-container", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  slidesPerGroup: 3,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
