@@ -130,6 +130,10 @@
   margin-top: 123px;
   margin-left: 80px;
   margin-right: 110px;
+  border: 1px solid #292929;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 2px 2px 3px rgb(53, 52, 52);
 }
 .form-floating {
   position: relative;
@@ -168,8 +172,8 @@
 
 .contact-info .btn-primary {
   margin-top: 160px;
-  border-color: #f4f6fa;
-  color: #fff;
+  /* border-color: #f4f6fa;
+  color: #fff; */
   /* background-color: #fff; */
 }
 
